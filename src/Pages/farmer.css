@@ -1,0 +1,60 @@
+.nav_bar {
+  height: 10vh;
+  width: 100%;
+  background-color: grey;
+}
+.form_container {
+  width: 70vw;
+  /* height: 50vh; */
+  padding: 10px;
+  border-radius: 10px;
+  border-color: 1px solid grey;
+  box-shadow: 5px 0px 8px 5px rgba(128, 128, 128, 0.418);
+}
+.title {
+  text-align: left;
+}
+.job_posted {
+  background-image: linear-gradient(
+    to right,
+    rgba(128, 128, 128, 0.055),
+    transparent
+  );
+  margin: auto;
+  padding: 5px;
+  height: auto;
+  min-width: none;
+  max-width: 500px;
+  border-radius: 20px;
+  transition: transform 0.5s ease;
+}
+.job_posted:hover {
+  transform: scale(1.01);
+}
+.job-post-list {
+  padding: 10px;
+  display: grid;
+  place-items: center;
+  gap: 10px;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+}
+.sub_heading {
+  margin-bottom: 0px;
+  font-size: 12px;
+  color: rgba(249, 245, 245, 0.998);
+}
+.content {
+  font-size: 13px;
+  color: rgb(10, 10, 10);
+}
+.darkInput {
+  background-color: #343a40; /* Bootstrap dark */
+  color: #fff;
+  border: 1px solid #495057;
+  border-radius: 0.25rem;
+}
+
+.darkInput::placeholder {
+  color: #020407;
+  opacity: 0.7;
+}
