@@ -59,7 +59,7 @@ const Farmer = () => {
                 )}!`}</h2>
               </div>
 
-              <div className="mx-auto text-light">Post a new job</div>
+              <h3 className="mx-auto text-light">Job posted by you </h3>
 
               <div className="my-5">{renderTable()}</div>
             </div>

@@ -1,2 +1,2 @@
-export const BASE_URL = "https://farmer-worker-backend.onrender.com";
+export const BASE_URL = "http://localhost:3002";
 export const TIME_OUT = "100000";
